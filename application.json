@@ -3,6 +3,10 @@
     {
       "id": "home",
       "isDefault": true
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -10,6 +14,12 @@
   "unreadCommentThreads": 0,
   "color": "#CCCCCC",
   "icon": "server-line",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,

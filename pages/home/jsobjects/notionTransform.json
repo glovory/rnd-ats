@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "notionTransform",
+    "pageId": "home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tgetData: async () => {\n\t\treturn query_db.data.results.map(item => {\n\t\t\treturn item.properties\n\t\t})\n\t}\n}",
+    "variables": []
+  },
+  "id": "home_notionTransform",
+  "deleted": false,
+  "gitSyncId": "62e0abfae6cdd24aa55ab287_62e38b6606dfc144c13812b8"
+}
